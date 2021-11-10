@@ -73,7 +73,7 @@ jobs:
       run: |
         [ -e files ] && mv files openwrt/files
         [ -e $CONFIG_FILE ] && mv $CONFIG_FILE openwrt/.config
-        [ -e $ETC_FILE ] && mv $ETC_FILE openwrt/package/base-files/files/etc/
+        [ -e $ETC_FILE ] && ls && mv $ETC_CONF openwrt/package/base-files/files/etc/
         chmod +x $DIY_P2_SH
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P2_SH
@@ -138,7 +138,7 @@ jobs:
       id: tag
       if: env.UPLOAD_RELEASE == 'true' && !cancelled()
       run: |
-        echo "::set-output name=release_tag::$({{ env.FILE_NAME }} + date)"
+        echo "::set-output name=release_tag::$(${{ env.FILE_NAME }} + $(date)")
         touch release.txt
         echo "::set-output name=status::success"
 
