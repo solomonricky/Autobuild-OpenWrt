@@ -1,0 +1,33 @@
+
+config wifi-device 'radio0'
+	option type 'mac80211'
+	option path 'platform/soc/c000000.wifi'
+	option band '5g'
+	option channel '153'
+	option cell_density '0'
+	option country 'MY'
+	option htmode 'VHT80'
+
+config wifi-iface 'default_radio0'
+	option device 'radio0'
+	option network 'lan'
+	option mode 'ap'
+	option ssid 'Redmi-AX6_5G'
+	option encryption 'none'
+
+config wifi-device 'radio1'
+	option type 'mac80211'
+	option path 'platform/soc/c000000.wifi+1'
+	option band '2g'
+	option cell_density '0'
+	option country 'MY'
+	option channel '1'
+	option htmode 'HT20'
+
+config wifi-iface 'default_radio1'
+	option device 'radio1'
+	option network 'lan'
+	option mode 'ap'
+	option ssid 'Redmi-AX6'
+	option encryption 'none'
+
