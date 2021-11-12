@@ -142,7 +142,6 @@ jobs:
       id: tag
       if: env.UPLOAD_RELEASE == 'true' && !cancelled()
       run: |
-        allowUpdates: true
         echo "::set-output name=release_tag::$(date +"%Y.%m.%d")"
         echo "::set-output name=status::success"
 
