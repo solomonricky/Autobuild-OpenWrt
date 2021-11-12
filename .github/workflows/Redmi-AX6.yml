@@ -124,6 +124,10 @@ jobs:
       run: |
         cd openwrt/bin/targets/*/*
         rm -rf packages
+        mkdir ./release/
+        mv openwrt/bin/targets/*/*sysupgrade.bin* ./release/
+        cd ./release/
+        ls -Ahl
         echo "FIRMWARE=$PWD" >> $GITHUB_ENV
         echo "::set-output name=status::success"
 
@@ -131,13 +135,14 @@ jobs:
       uses: actions/upload-artifact@main
       if: steps.organize.outputs.status == 'success' && !cancelled()
       with:
-        name: ${{ env.FILE_NAME }}$(date)
+        name: ${{ env.FILE_NAME }}
         path: ${{ env.FIRMWARE }}
 
     - name: Generate release tag
       id: tag
       if: env.UPLOAD_RELEASE == 'true' && !cancelled()
       run: |
+        allowUpdates: true
         echo "::set-output name=release_tag::$(date +"%Y.%m.%d")"
         echo "::set-output name=status::success"
 
@@ -148,6 +153,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
       with:
         tag_name: ${{ steps.tag.outputs.release_tag }}
+        replacesArtifacts: true
         # body_path: release.txt
         files: ${{ env.FIRMWARE }}/*
 
