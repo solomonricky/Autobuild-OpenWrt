@@ -4,6 +4,7 @@ Autobuild OpenWrt / ImmortalWrt on 12AM everyday. You may download the latest fi
 ## Supported Device
 - Redmi AX6 (IPQ807x)
 - Xiaomi AX3600 (IPQ807x)
+- Newifi D2 (MT7621)
 - ...
 
 ## Credits
