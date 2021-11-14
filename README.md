@@ -3,13 +3,14 @@ Autobuild OpenWrt / ImmortalWrt on 12AM everyday. You may download the latest fi
 
 ## Supported Device
 - Redmi AX6 (IPQ807x)
+- Xiaomi AX3600 (IPQ807x)
 - ...
 
 ## Credits
 
 - [Microsoft Azure](https://azure.microsoft.com)
 - [GitHub Actions](https://github.com/features/actions)
-- [GitHub Actions](https://github.com/P3TERX/Actions-OpenWrt)
+- [P3TERX](https://github.com/P3TERX/Actions-OpenWrt)
 - [OpenWrt](https://github.com/openwrt/openwrt)
 - [ImmortalWrt](https://github.com/immortalwrt/immortalwrt)
 - [1715173329](https://github.com/1715173329/immortalwrt)
