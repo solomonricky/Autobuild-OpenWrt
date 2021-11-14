@@ -10,7 +10,6 @@ env:
   REPO_URL: https://github.com/1715173329/immortalwrt
   REPO_BRANCH: master-ax3000
   FEEDS_CONF: feeds.conf.default
-  ETC_CONF: custom/Redmi-AX6/default/
   CONFIG_FILE: config/Redmi-AX6.config
   DIY_P1_SH: custom/Redmi-AX6/diy-part1.sh
   DIY_P2_SH: custom/Redmi-AX6/diy-part2.sh
@@ -73,7 +72,7 @@ jobs:
       run: |
         [ -e files ] && mv files openwrt/files
         [ -e $CONFIG_FILE ] && mv $CONFIG_FILE openwrt/.config
-        [ -e $ETC_CONF ] && ls && mv $ETC_CONF openwrt/package/base-files/files/etc/ && ls openwrt/package/base-files/files/etc/config/
+        cp custom/Redmi-AX6/default/* openwrt/package/base-files/files/etc/
         chmod +x $DIY_P2_SH
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P2_SH
