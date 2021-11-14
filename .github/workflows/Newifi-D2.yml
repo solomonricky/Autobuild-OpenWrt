@@ -8,7 +8,7 @@ on:
 
 env:
   REPO_URL: https://github.com/openwrt/openwrt
-  REPO_BRANCH: v21.02.2
+  REPO_BRANCH: v21.02.1
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: config/Newifi-D2.config
   DIY_P1_SH: custom/Newifi-D2/diy-part1.sh
