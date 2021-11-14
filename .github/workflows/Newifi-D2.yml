@@ -1,4 +1,4 @@
-name: Build Newifi-D2 ImmortalWrt
+name: Build Newifi-D2 OpenWrt
 
 on:
   schedule:
