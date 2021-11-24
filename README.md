@@ -1,5 +1,5 @@
 # Autobuild-OpenWrt
-Autobuild OpenWrt / ImmortalWrt on 12AM everyday. You may download the latest firmware at [Github Release](https://github.com/solomonricky/Autobuild-OpenWrt/releases).
+Autobuild OpenWrt / ImmortalWrt on every Monday. You may download the latest firmware at [Github Release](https://github.com/solomonricky/Autobuild-OpenWrt/releases).
 
 ## Supported Device
 - Redmi AX6 (IPQ807x)

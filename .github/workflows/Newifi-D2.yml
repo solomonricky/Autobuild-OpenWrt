@@ -2,7 +2,7 @@ name: Build Newifi-D2 OpenWrt
 
 on:
   schedule:
-    - cron: 0 16 * * *
+    - cron: 5 1 * * 1
   watch:
     types: started
 
