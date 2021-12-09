@@ -12,4 +12,4 @@
 - zram-swap
 
 ### Preview Picture
-[preview](Picture.JPG)
+![preview](Picture.JPG)
