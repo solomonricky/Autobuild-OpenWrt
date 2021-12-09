@@ -5,6 +5,7 @@ Autobuild OpenWrt / ImmortalWrt on every Monday. You may download the latest fir
 - Redmi AX6 (IPQ807x)
 - Xiaomi AX3600 (IPQ807x)
 - Newifi D2 (MT7621)
+- Dlink DIR-842 (ATH79)
 - ...
 
 ## Credits
