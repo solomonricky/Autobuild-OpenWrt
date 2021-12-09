@@ -2,10 +2,10 @@
 Autobuild OpenWrt / ImmortalWrt on every Monday. You may download the latest firmware at [Github Release](https://github.com/solomonricky/Autobuild-OpenWrt/releases).
 
 ## Supported Device
-- Redmi AX6 (IPQ807x)
-- Xiaomi AX3600 (IPQ807x)
-- Newifi D2 (MT7621)
-- Dlink DIR-842 (ATH79)
+- [Redmi AX6](document/Redmi-AX6/README.md) (IPQ807x)
+- [Xiaomi AX3600](document/Xiaomi-AX3600/README.md) (IPQ807x)
+- [Newifi D2](document/Newifi-D2/README.md) (MT7621)
+- [Dlink DIR-842](document/DIR-842/README.md) (ATH79)
 - ...
 
 ## Credits
