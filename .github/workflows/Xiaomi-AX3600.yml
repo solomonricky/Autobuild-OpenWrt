@@ -144,7 +144,6 @@ jobs:
       run: |
         echo "::set-output name=release_tag::$(date +"%Y.%m.%d")"
         touch release.txt
-        echo " ‣ Source Code: ${{ env.REPO_URL }}" >> release.txt
         echo " ‣ Firmware Donwload Site: http://firmware.download.yzyz.ga/" >> release.txt
         echo " ‣ Telegram Group: https://t.me/myopenwrt" >> release.txt
         echo "::set-output name=status::success"
@@ -153,7 +152,7 @@ jobs:
       uses: softprops/action-gh-release@v1
       if: steps.tag.outputs.status == 'success' && !cancelled()
       env:
-        GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         tag_name: ${{ steps.tag.outputs.release_tag }}
         body_path: release.txt
