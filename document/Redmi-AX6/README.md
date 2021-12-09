@@ -1,3 +1,8 @@
+# Redmi-AX6
+
+### Preview Picture
+![preview](Picture.JPG)
+
 ### Packages include:
 - luci-app-argon-config
 - luci-app-openclash
@@ -10,6 +15,3 @@
 - luci-app-wrtbwmon
 - luci-theme-argon
 - zram-swap
-
-### Preview Picture
-![preview](Picture.JPG)
