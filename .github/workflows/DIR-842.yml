@@ -1,6 +1,10 @@
 name: Build DIR-842 OpenWrt
 
-on: [push]
+on:
+  schedule:
+    - cron: 5 1 * * 1
+  watch:
+    types: started
 
 env:
   REPO_URL: https://github.com/openwrt/openwrt
