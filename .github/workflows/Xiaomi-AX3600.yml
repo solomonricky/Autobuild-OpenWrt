@@ -144,7 +144,7 @@ jobs:
       run: |
         echo "::set-output name=release_tag::$(date +"%Y.%m.%d")"
         touch release.txt
-        echo " ‣ Firmware Donwload Site: http://firmware.download.yzyz.ga/" >> release.txt
+        echo " ‣ Firmware Download Site: http://firmware.download.yzyz.ga/" >> release.txt
         echo " ‣ Telegram Group: https://t.me/myopenwrt" >> release.txt
         echo "::set-output name=status::success"
 
