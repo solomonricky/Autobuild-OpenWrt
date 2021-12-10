@@ -17,6 +17,9 @@ git clone https://github.com/jerrykuku/luci-theme-argon.git package/new/luci-the
 # OpenClash
 git clone --single-branch --depth 1 -b dev https://github.com/vernesong/OpenClash.git package/new/luci-app-openclash
 
+# Bypass
+git clone https://github.com/kiddin9/openwrt-bypass.git package/new/luci-app-bypass
+
 # Passwall
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/luci-app-passwall package/new/luci-app-passwall
 sed -i 's,default n,default y,g' package/new/luci-app-passwall/Makefile
