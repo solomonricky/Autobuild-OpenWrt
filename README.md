@@ -1,9 +1,9 @@
 # Autobuild-OpenWrt
-<p>[![Redmi-AX6](https://github.com/solomonricky/Autobuild-OpenWrt/actions/workflows/Redmi-AX6.yml/badge.svg)](https://github.com/solomonricky/Autobuild-OpenWrt/actions/workflows/Redmi-AX6.yml)
-[![Xiaomi-AX3600](https://github.com/solomonricky/Autobuild-OpenWrt/actions/workflows/Xiaomi-AX3600.yml/badge.svg)](https://github.com/solomonricky/Autobuild-OpenWrt/actions/workflows/Xiaomi-AX3600.yml)
-[![Newifi-D2](https://github.com/solomonricky/Autobuild-OpenWrt/actions/workflows/Newifi-D2.yml/badge.svg)](https://github.com/solomonricky/Autobuild-OpenWrt/actions/workflows/Newifi-D2.yml)
-[![DIR-842](https://github.com/solomonricky/Autobuild-OpenWrt/actions/workflows/DIR-842.yml/badge.svg)](https://github.com/solomonricky/Autobuild-OpenWrt/actions/workflows/DIR-842.yml)</p>
-<p>Autobuild OpenWrt / ImmortalWrt on every Monday. You may download the latest firmware at [Github Release](https://github.com/solomonricky/Autobuild-OpenWrt/releases).</p>
+[![Build Redmi-AX6 ImmortalWrt](https://github.com/solomonricky/Autobuild-OpenWrt/actions/workflows/Redmi-AX6.yml/badge.svg)](https://github.com/solomonricky/Autobuild-OpenWrt/actions/workflows/Redmi-AX6.yml)
+[![Build Xiaomi-AX3600 ImmortalWrt](https://github.com/solomonricky/Autobuild-OpenWrt/actions/workflows/Xiaomi-AX3600.yml/badge.svg)](https://github.com/solomonricky/Autobuild-OpenWrt/actions/workflows/Xiaomi-AX3600.yml)
+[![Build Newifi-D2 OpenWrt](https://github.com/solomonricky/Autobuild-OpenWrt/actions/workflows/Newifi-D2.yml/badge.svg)](https://github.com/solomonricky/Autobuild-OpenWrt/actions/workflows/Newifi-D2.yml)
+[![Build DIR-842 OpenWrt](https://github.com/solomonricky/Autobuild-OpenWrt/actions/workflows/DIR-842.yml/badge.svg)](https://github.com/solomonricky/Autobuild-OpenWrt/actions/workflows/DIR-842.yml)
+Autobuild OpenWrt / ImmortalWrt on every Monday. You may download the latest firmware at [Github Release](https://github.com/solomonricky/Autobuild-OpenWrt/releases).
 
 ## Supported Device
 - [Redmi AX6](document/Redmi-AX6/README.md) (IPQ807x)
