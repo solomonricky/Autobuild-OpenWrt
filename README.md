@@ -1,8 +1,4 @@
 # Autobuild-OpenWrt
-[![Build Redmi-AX6 ImmortalWrt](https://github.com/solomonricky/Autobuild-OpenWrt/actions/workflows/Redmi-AX6.yml/badge.svg)](https://github.com/solomonricky/Autobuild-OpenWrt/actions/workflows/Redmi-AX6.yml)
-[![Build Xiaomi-AX3600 ImmortalWrt](https://github.com/solomonricky/Autobuild-OpenWrt/actions/workflows/Xiaomi-AX3600.yml/badge.svg)](https://github.com/solomonricky/Autobuild-OpenWrt/actions/workflows/Xiaomi-AX3600.yml)
-[![Build Newifi-D2 OpenWrt](https://github.com/solomonricky/Autobuild-OpenWrt/actions/workflows/Newifi-D2.yml/badge.svg)](https://github.com/solomonricky/Autobuild-OpenWrt/actions/workflows/Newifi-D2.yml)
-[![Build DIR-842 OpenWrt](https://github.com/solomonricky/Autobuild-OpenWrt/actions/workflows/DIR-842.yml/badge.svg)](https://github.com/solomonricky/Autobuild-OpenWrt/actions/workflows/DIR-842.yml)
 Autobuild OpenWrt / ImmortalWrt on every Monday. You may download the latest firmware at [Github Release](https://github.com/solomonricky/Autobuild-OpenWrt/releases).
 
 ## Supported Device
