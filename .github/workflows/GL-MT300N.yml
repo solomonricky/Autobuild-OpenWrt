@@ -1,6 +1,10 @@
 name: Build GL-MT300N OpenWrt
 
-on: [push]
+on:
+  schedule:
+    - cron: 5 1 * * 1
+  watch:
+    types: started
 
 env:
   REPO_URL: https://github.com/openwrt/openwrt
