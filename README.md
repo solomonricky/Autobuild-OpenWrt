@@ -7,6 +7,7 @@ Autobuild OpenWrt / ImmortalWrt on every Monday. You may download the latest fir
 - [Newifi D2](document/Newifi-D2/README.md) (MT7621)
 - [Dlink DIR-842](document/DIR-842/README.md) (ATH79)
 - [Gl-iNet MT300N](document/GL-MT300N/README.md) (MT7628AN)
+- [Linksys-EA7500_v2](document/Linksys-EA7500_v2/README.md) (MT7621)
 - ...
 
 ## Credits
