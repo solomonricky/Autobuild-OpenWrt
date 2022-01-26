@@ -1,6 +1,6 @@
 name: Build Linksys-EA7500_v2 OpenWrt
 
-on: [push]
+on: #[push]
   repository_dispatch:
   workflow_dispatch:
     inputs:
